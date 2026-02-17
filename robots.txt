@@ -9,10 +9,10 @@ Disallow: /private/
 Disallow: /_private/
 Disallow: /admin/
 
-Disallow: /a-solucao-de-tudo-na-vida/private/
-Disallow: /a-solucao-de-tudo-na-vida/_private/
-Disallow: /a-solucao-de-tudo-na-vida/admin/
-Disallow: /a-solucao-de-tudo-na-vida/drafts/
+Disallow: /a-solucao-para-tudo/private/
+Disallow: /a-solucao-para-tudo/_private/
+Disallow: /a-solucao-para-tudo/admin/
+Disallow: /a-solucao-para-tudo/drafts/
 
 # --- NÃO BLOQUEAR RECURSOS IMPORTANTES (RENDERIZAÇÃO DO GOOGLE) ---
 Allow: /*.css$
@@ -36,3 +36,4 @@ Host: avisnet-ship-it.github.io
 
 # --- SITEMAP ---
 Sitemap: https://avisnet-ship-it.github.io/a-solucao-para-tudo/sitemap.xml
+
