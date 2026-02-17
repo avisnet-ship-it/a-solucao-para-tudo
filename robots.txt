@@ -35,4 +35,4 @@ Disallow: /*?gclid=
 Host: avisnet-ship-it.github.io
 
 # --- SITEMAP ---
-Sitemap: https://avisnet-ship-it.github.io/a-solucao-de-tudo-na-vida/sitemap.xml
+Sitemap: https://avisnet-ship-it.github.io/a-solucao-para-tudo/sitemap.xml
