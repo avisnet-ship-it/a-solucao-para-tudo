@@ -1,0 +1,38 @@
+User-agent: *
+
+# --- LIBERA O SITE ---
+Allow: /
+
+# --- BLOQUEIA CONTEÚDO PRIVADO ---
+Disallow: /drafts/
+Disallow: /private/
+Disallow: /_private/
+Disallow: /admin/
+
+Disallow: /a-solucao-de-tudo-na-vida/private/
+Disallow: /a-solucao-de-tudo-na-vida/_private/
+Disallow: /a-solucao-de-tudo-na-vida/admin/
+Disallow: /a-solucao-de-tudo-na-vida/drafts/
+
+# --- NÃO BLOQUEAR RECURSOS IMPORTANTES (RENDERIZAÇÃO DO GOOGLE) ---
+Allow: /*.css$
+Allow: /*.js$
+Allow: /*.png$
+Allow: /*.jpg$
+Allow: /*.jpeg$
+Allow: /*.webp$
+Allow: /*.svg$
+Allow: /*.gif$
+Allow: /*.woff$
+Allow: /*.woff2$
+
+# --- EVITA INDEXAÇÃO DE LINKS COM PARÂMETROS ---
+Disallow: /*?utm_
+Disallow: /*?fbclid=
+Disallow: /*?gclid=
+
+# --- IDENTIFICA HOST (BING/YANDEX E CRAWLERS SECUNDÁRIOS) ---
+Host: avisnet-ship-it.github.io
+
+# --- SITEMAP ---
+Sitemap: https://avisnet-ship-it.github.io/a-solucao-de-tudo-na-vida/sitemap.xml
